@@ -1,0 +1,14 @@
+services:
+  jenkins:
+    build: .
+    container_name: jenkins-r
+    ports:
+      - "8080:8080"
+    volumes:
+      # Named volume keeps your Jenkins config and job history
+      # when the container stops or gets rebuilt
+      - jenkins_home:/var/jenkins_home
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:

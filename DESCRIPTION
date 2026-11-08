@@ -1,0 +1,11 @@
+Package: claimsqa
+Title: Practice Package for Claims Data QA with testthat and Jenkins
+Version: 0.1.0
+Authors@R: person("KTW", role = c("aut", "cre"), email = "ktw@example.com")
+Description: Small data-cleaning functions for claims, enrollment, and visit
+    data, each tested against a synthetic fixture seeded with known data issues.
+License: CC0
+Encoding: UTF-8
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.1

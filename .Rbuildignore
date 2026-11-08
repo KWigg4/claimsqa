@@ -1,0 +1,7 @@
+^Jenkinsfile$
+^jenkins$
+^README\.md$
+^test-results$
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.git$
