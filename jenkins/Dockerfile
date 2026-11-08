@@ -9,6 +9,7 @@ RUN apt-get update \
       r-base-core \
       r-cran-testthat \
       r-cran-pkgload \
+      r-cran-xml2 \
  && rm -rf /var/lib/apt/lists/*
 
 ENV LANG=C.UTF-8 \
