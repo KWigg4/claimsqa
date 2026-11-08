@@ -8,7 +8,7 @@
 #' @return One row per patient.
 #' @export
 first_visit <- function(visits) {
-  out <- visits[order(visits$pat_id, visits$arrival , visits$visit_id
+  out <- visits[order(visits$pat_id, visits$arrival # , visits$visit_id
   )
     , ,
                 drop = FALSE]
